@@ -23,7 +23,7 @@
   "author": "Flutterwave Developers",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^0.28.0",
     "bluebird": "^3.7.2",
     "chai-as-promised-also-chain": "^1.0.2",
     "eslint-config-prettier": "^8.6.0",
