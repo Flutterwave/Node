@@ -12,16 +12,16 @@ Updated the `getBalanceByCurrency` method to parse path parameters.
 - [FIXED] Update the `balance_currency` function in the Misc object to exclude queries when parsing a path parameter.
 
 ## 1.1.12 | 2024-09-27
-Updated the `account_bank` field in the list schema.
+Update the list schema
 
 ### Version Changes
-- [FIXED] Update validation from required to optional for 'account_bank" parameter in the list schema.
+- [FIXED] Remove required validation on the 'account_bank" parameter.
 
 ## 1.1.11 | 2024-09-10
-Updated the `account_bank` field in all schema's.
+Update `account_bank` validation in create schema.
 
 ### Version Changes
-- [FIXED] Update validation (minLength & maxLength) for 'account_bank" parameter in the schema's.
+- [FIXED] Update minLength & maxLength validation for account_bank parameter.
 
 ## 1.1.10 | 2024-04-04
 Updated the variable name "package" which happens to be a reserved word in JavaScript, and it is causing compatibility issues with certain bundlers.
